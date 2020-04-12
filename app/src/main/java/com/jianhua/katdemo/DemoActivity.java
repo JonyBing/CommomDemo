@@ -2,7 +2,7 @@ package com.jianhua.katdemo;
 
 import android.os.Bundle;
 import androidx.lifecycle.ViewModelProviders;
-import com.jianhua.commom.base.BaseActivity;
+import com.jianhua.common.base.BaseActivity;
 import com.jianhua.katdemo.databinding.ActivityDemoBinding;
 
 public class DemoActivity extends BaseActivity<DemoViewModel,ActivityDemoBinding> {

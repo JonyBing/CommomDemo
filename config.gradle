@@ -18,7 +18,7 @@ ext {
     dependencies = [
             //android-support
             "appcompat"             : "androidx.appcompat:appcompat:${dependVersion.support}",
-            "legacy"                : "androidx.legacy:legacy-support-v4:${dependVersion.support}",
+            "legacy"                : "androidx.legacy:legacy-support-v4:1.0.0",
             "material"              : "com.google.android.material:material:${dependVersion.support}",
             "recyclerview"          : "androidx.recyclerview:recyclerview:${dependVersion.support}",
             "multidex"              : "com.android.support:multidex:1.0.3",

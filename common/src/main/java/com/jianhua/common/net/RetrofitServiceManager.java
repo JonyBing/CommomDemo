@@ -1,4 +1,4 @@
-package com.jianhua.commom.net;
+package com.jianhua.common.net;
 
 import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;

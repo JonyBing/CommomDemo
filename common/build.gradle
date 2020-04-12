@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+
+    api rootProject.ext.dependencies["appcompat"]
+    api rootProject.ext.dependencies["retrofit2"]
+    api rootProject.ext.dependencies["adapter-rxjava2"]
+    api rootProject.ext.dependencies["fastjson"]
+    api rootProject.ext.dependencies["fastjson-android"]
+    api rootProject.ext.dependencies["rxjava"]
+    api rootProject.ext.dependencies["rxandroid"]
+    api rootProject.ext.dependencies["lifecycleExt"]
+    api rootProject.ext.dependencies["databinding"]
+}

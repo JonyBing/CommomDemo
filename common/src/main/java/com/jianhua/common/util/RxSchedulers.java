@@ -1,4 +1,4 @@
-package com.jianhua.commom.util;
+package com.jianhua.common.util;
 
 
 import io.reactivex.Observable;

@@ -2,7 +2,7 @@ package com.jianhua.katdemo;
 
 import androidx.lifecycle.MutableLiveData;
 
-import com.jianhua.commom.base.BaseViewModel;
+import com.jianhua.common.base.BaseViewModel;
 
 public class DemoViewModel extends BaseViewModel {
 

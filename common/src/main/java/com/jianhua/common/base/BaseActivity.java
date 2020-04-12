@@ -1,4 +1,4 @@
-package com.jianhua.commom.base;
+package com.jianhua.common.base;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;

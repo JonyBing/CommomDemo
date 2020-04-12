@@ -1,16 +1,16 @@
-package com.jianhua.commom.base;
+package com.jianhua.common.base;
 
-import androidx.lifecycle.ViewModel;
-
+import android.app.Application;
+import androidx.lifecycle.AndroidViewModel;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 
-public abstract class BaseViewModel extends ViewModel {
+public abstract class BaseAndroidViewModel extends AndroidViewModel {
 
     private CompositeDisposable mCompositeDisposable;
 
-    public BaseViewModel() {
-
+    public BaseAndroidViewModel(Application application) {
+        super(application);
     }
 
     public void addSubscribe(Disposable disposable) {
